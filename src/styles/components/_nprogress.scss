@@ -1,0 +1,12 @@
+#nprogress .bar {
+  background: $primary;
+  z-index: 100000;
+  height: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#nprogress .spinner {
+  display: none;
+}
