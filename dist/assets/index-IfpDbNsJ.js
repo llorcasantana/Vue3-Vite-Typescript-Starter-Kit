@@ -1,0 +1,1 @@
+import{d as t,c as n,a as s,u as a,o as c}from"./index-X_dw3xP6.js";const p=t({__name:"index",setup(r){const e=()=>{o.push({name:"index"})},o=a();return(u,d)=>(c(),n("div",null,[s("button",{class:"button",onClick:e},"Go to Index")]))}});export{p as default};
