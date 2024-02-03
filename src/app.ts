@@ -11,11 +11,13 @@ import { createHead } from '@vueuse/head'
 import { createRouter } from './router'
 import { initSession, sessionSymbol } from '@/composable/useSessionData'
 import { apiSymbol, initApi } from '@/composable/useApi'
+import { createI18n } from '@/i18n'
 export async function createApp({ }) {
   const head = createHead()
   const router = createRouter()
   const session = initSession()
   const api = initApi(session)
+  const i18n = createI18n()
 
   if (session.isLoggedIn) {
     try {
@@ -61,6 +63,7 @@ export async function createApp({ }) {
 
   app.use(head)
   app.use(router)
+  app.use(i18n)
 
   return app
 }
