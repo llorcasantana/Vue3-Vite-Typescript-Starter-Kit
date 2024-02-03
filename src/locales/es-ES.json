@@ -1,3 +1,6 @@
 {
-  "to_components": "Ir a componentes"
+  "to_components": "Ir a componentes",
+  "to_example_route": "Ruta de ejemplo",
+  "to_deploy": "Usa esta plantilla",
+  "subtitle": "Este es un proyecto que utiliza TypeScript como lenguaje de programación principal. El proyecto se basa en varios marcos de componentes de JavaScript con Vue.js (versión 3.4.15) en el centro. Utiliza una serie de paquetes esenciales que incluyen eslint para linting, axios para solicitudes HTTP, vue-router para enrutamiento y vue-i18n para internacionalización, lo que respalda la funcionalidad del proyecto."
 }

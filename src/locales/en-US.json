@@ -1,0 +1,6 @@
+{
+  "to_components": "Go to Components",
+  "to_example_route": "Example route",
+  "to_deploy": "Use this template",
+  "subtitle": "This is a project using TypeScript as the primary scripting language. The project relies on various JavaScript component frameworks with Vue.js (version 3.4.15) peing at the center. It uses a number of essential packages including eslint for linting, axios for HTTP requests, vue-router for routing, vue-i18n for internationalization, underpinning the project's functionality.\n\n"
+}
