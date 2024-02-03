@@ -29,7 +29,7 @@ const router = useRouter()
                 <img src="@/assets/logo.svg" width="48" height="48" alt="">
               </span>
             <div class="ml-3">
-              <h4 class="is-size-4 has-text-weight-bold mb-2">Vue 4.4.15</h4>
+              <h4 class="is-size-4 has-text-weight-bold mb-2">Vue 3.4.15</h4>
               <p class="subtitle has-text-grey">The Progressive JavaScript Framework</p>
             </div>
           </div>
